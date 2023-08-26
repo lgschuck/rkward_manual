@@ -1,16 +1,20 @@
 # Welcome {.unnumbered}
 
-This is a **RKWard** book manual. **RKWard** is an easy to use and easily extensible **IDE/GUI for R**.
+This is a book manual of **RKWard**. **RKWard** is an easy to use and easily extensible **IDE/GUI for R**.
+
+The current and official documentation can be found here:
+
+[Overview](https://rkward.kde.org/About.html)
+
+[Screenshots](https://rkward.kde.org/Screenshots.html)
+
+[User Documentation](https://rkward.kde.org/User_Documentation.html)
 
 ## Versions
 
 The **RKWard** version used in this book is **0.7.5 - 24 Oct 2022**.
 
-The R Version is: `r getRversion()`
-
-`r sessionInfo()[["running"]]`
-
-`r sessionInfo()[["platform"]]`
+The **R Version** is **`r getRversion()`** (`r sessionInfo()[["running"]]` -  `r sessionInfo()[["platform"]]`)
 
 ------------------------------------------------------------------------
 

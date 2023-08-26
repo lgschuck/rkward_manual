@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This is a RKWard book manual build with Quarto.
+This is a book manual of RKWard build with Quarto.
 
 https://rkward.kde.org/
 

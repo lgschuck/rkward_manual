@@ -16,5 +16,11 @@
   },
   "menu_windows.qmd": {
     "menu_windows.html": "82f05c4f"
+  },
+  "main_window.qmd": {
+    "main_window.html": "26bebe57"
+  },
+  "menu_settings.qmd": {
+    "menu_settings.html": "79f4f203"
   }
 }

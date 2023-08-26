@@ -1,10 +1,8 @@
-layout::::row-p-end,1864
-script::::file:///C:/Users/luisg/RKWard_book/render.r
-help::::
+layout::::row-col-p-end,884-end,1856
 pane_end::::
 workspace::sidebar,0::
 commandlog::sidebar,3::
-filebrowser::sidebar,0::
+filebrowser::sidebar,1::
 pendingjobs::sidebar,4::
 console::sidebar,3::
 helpsearch::sidebar,3::
@@ -15,4 +13,4 @@ kateproject::sidebar,0::
 kateprojectgit::sidebar,0::
 kateprojectinfo::sidebar,3::
 kate_plugin_katesearch::sidebar,3::
-kate_private_plugin_katesnippetsplugin::sidebar,3::
+kate_private_plugin_katesnippetsplugin::sidebar,1::

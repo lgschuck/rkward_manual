@@ -1,6 +1,4 @@
-# Screenshots
-
-[Screenshots](https://rkward.kde.org/Screenshots.html)
+# Main Window
 
 ## Main Window
 
@@ -21,4 +19,4 @@ and each individual window can also be detached as a separate top level window (
 
 ------------------------------------------------------------------------
 
-Last update: `r format(file.info('screenshots.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`
+Last update: `r format(file.info('main_window.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`

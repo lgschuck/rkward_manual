@@ -1,7 +1,7 @@
 {
-  "hash": "788dbbc7425752281b2e35069ee34a7f",
+  "hash": "2c7e86403c07149a5800767d37b50989",
   "result": {
-    "markdown": "# Welcome {.unnumbered}\n\nThis is a **RKWard** book manual. **RKWard** is an easy to use and easily extensible **IDE/GUI for R**.\n\n## Versions\n\nThe **RKWard** version used in this book is **0.7.5 - 24 Oct 2022**.\n\nThe R Version is: 4.2.0\n\nWindows 10 x64 (build 19045)\n\nx86_64-w64-mingw32/x64 (64-bit)\n\n------------------------------------------------------------------------\n\nLast update: 08/26/2023 - 12:38:42 -03\n",
+    "markdown": "# Welcome {.unnumbered}\n\nThis is a book manual of **RKWard**. **RKWard** is an easy to use and easily extensible **IDE/GUI for R**.\n\nThe current and official documentation can be found here:\n\n[Overview](https://rkward.kde.org/About.html)\n\n[Screenshots](https://rkward.kde.org/Screenshots.html)\n\n[User Documentation](https://rkward.kde.org/User_Documentation.html)\n\n## Versions\n\nThe **RKWard** version used in this book is **0.7.5 - 24 Oct 2022**.\n\nThe **R Version** is **4.2.0** (Windows 10 x64 (build 19045) -  x86_64-w64-mingw32/x64 (64-bit))\n\n------------------------------------------------------------------------\n\nLast update: 08/26/2023 - 15:00:05 -03\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

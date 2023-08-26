@@ -1,0 +1,20 @@
+# Menu Settings
+
+![Menu Settings](images/menu_settings/menu_settings.png)
+
+## Configuring and Loading Packages
+
+This dialog allows to easily load/unload multiple packages simultaneously.
+
+![Menu Settings - Load/Unload Packages](images/menu_settings/menu_settings_load_pkgs.png)
+
+Thousands of add-on packages can be downloaded for R. RKWard offers a graphical interface
+to browse, install, and update such packages.
+
+![Menu Settings - Install Packages](images/menu_settings/menu_settings_install_pkgs.png)
+
+![Menu Settings - RkWard Plugins](images/menu_settings/menu_settings_plugins.png)
+
+------------------------------------------------------------------------
+
+Last update: `r format(file.info('menu_settings.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`

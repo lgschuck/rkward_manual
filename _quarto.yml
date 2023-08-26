@@ -21,10 +21,11 @@ book:
   chapters:
     - index.qmd
     - about.qmd
-    - screenshots.qmd
+    - main_window.qmd
     - menu_file.qmd
     - menu_workspace.qmd
     - menu_windows.qmd
+    - menu_settings.qmd
 
   downloads: [pdf]
 
