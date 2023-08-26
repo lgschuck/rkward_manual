@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: docs
+
+lang: en-US
+engine: knitr
+
+book:
+  title: "RKWard - Manual"
+  date: today
+  cover-image: images/app_icon.png
+  sidebar:
+    collapse-level: 1
+
+  page-footer:
+    left: |
+      RKWard - Manual
+    right: |
+      Build with Quarto and RKWard.
+    background: '#007bff'
+  chapters:
+    - index.qmd
+    - about.qmd
+
+  downloads: [pdf]
+
+format:
+  html:
+    theme:
+      light: [cosmo]
+      dark: [slate]
+
+  pdf: default
