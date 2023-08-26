@@ -1,0 +1,14 @@
+{
+  "hash": "bfe252ee2e7dbfad89b4e2aecfb09e33",
+  "result": {
+    "markdown": "# Welcome {.unnumbered}\n\nThis is a **RKWard** book manual. RKWard is an easy to use and easily extensible IDE/GUI for R.\n\nThe RKWard used in this book is the version **0.7.5 - 24 Oct 2022**.\n\n## Versions\n\nThe R Version is: 4.2.0\n\nWindows 10 x64 (build 19045)\n\nx86_64-w64-mingw32/x64 (64-bit)\n\n------------------------------------------------------------------------\n\nLast update:: 08/25/2023 - 22:59:49 -03\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
