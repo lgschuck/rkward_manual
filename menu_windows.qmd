@@ -1,0 +1,9 @@
+# Menu Windows
+
+
+![Menu Windows](images/menu_windows/menu_windows.png)
+
+
+------------------------------------------------------------------------
+
+Last update: `r format(file.info('menu_windows.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`

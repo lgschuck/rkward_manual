@@ -7,5 +7,14 @@
   },
   "screenshots.qmd": {
     "screenshots.html": "4fe9fb18"
+  },
+  "menu_file.qmd": {
+    "menu_file.html": "d28554e7"
+  },
+  "menu_workspace.qmd": {
+    "menu_workspace.html": "0bfec81e"
+  },
+  "menu_windows.qmd": {
+    "menu_windows.html": "82f05c4f"
   }
 }

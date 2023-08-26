@@ -1,0 +1,9 @@
+# Menu Workspace
+
+
+![Menu workspace](images/menu_workspace/menu_workspace.png)
+
+
+------------------------------------------------------------------------
+
+Last update: `r format(file.info('menu_workspace.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`

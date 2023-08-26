@@ -48,11 +48,11 @@ to in HTML format, however, making it easy to copy-and-paste or import them into
 
 **RKWard** is developed by a community of volunteers.
 
-![About **RKWard**](images/about_rkward.png)
+![About **RKWard**](images/about/about_rkward.png)
 
-![**RKWard** Components](images/about_components.png)
+![**RKWard** Components](images/about/about_components.png)
 
-![**RKWard** Authors](images/about_authors.png)
+![**RKWard** Authors](images/about/about_authors.png)
 
 ## **RKWard** 0.7.5 - 24 Oct 2022
 

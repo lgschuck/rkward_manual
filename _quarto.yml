@@ -22,6 +22,9 @@ book:
     - index.qmd
     - about.qmd
     - screenshots.qmd
+    - menu_file.qmd
+    - menu_workspace.qmd
+    - menu_windows.qmd
 
   downloads: [pdf]
 
