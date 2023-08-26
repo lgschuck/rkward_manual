@@ -1,0 +1,16 @@
+# Menu file
+
+
+![Menu File](images/menu_file/menu_file.png)
+
+![Menu File - New](images/menu_file/menu_file_new.png)
+
+![Menu File - Open by Type](images/menu_file/menu_file_open_type.png)
+
+![Menu File - Import](images/menu_file/menu_file_import_format.png)
+
+![Menu File - Export](images/menu_file/menu_file_export.png)
+
+------------------------------------------------------------------------
+
+Last update: `r format(file.info('menu_file.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`
