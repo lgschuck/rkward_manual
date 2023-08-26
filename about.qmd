@@ -1,0 +1,63 @@
+# About RKWard
+
+## [RKWard Mission statement](https://rkward.kde.org/RKWard_Overview.html)
+
+**RKWard** is meant to become an easy to use, transparent frontend to the [R-language](http://r-project.org/), a very powerful,
+yet hard-to-get-into scripting-language with a strong focus on statistic functions. It will not only
+provide a convenient user-interface, however, but also take care of seamless integration with an office-suite.
+Practical statistics is not just about calculating, after all, but also about documenting and ultimately
+publishing the results.
+
+**RKWard** then is (will be) something like a free replacement for commercial statistical packages.
+In addition to ease of use, three aspects are particularily important:
+
+-   It will be a transparent interface to the underlying R-language. That is, it will not hide the powerful
+syntax, but merely provide a convenient way, in which both newbies and R-experts can accomplish most of their tasks.
+A GUI can never provide an interface to the whole power of a language like R. In some cases users will want to
+tweak some functions to their particular needs and esp. to automate some tasks. By making the “inner workings”
+visible to the user, **RKWard** will make it easy for the user to see where and how to use R-syntax to accomplish their goals.
+
+-   For the output, **RKWard** strives to separate content and design to a high degree. It will not try to design its
+own tables/graphs, etc, which have to be converted to the style used in the rest of a publication by hand.
+Currently **RKWard** uses HTML for its output. Using appropriate style definitions reformatting this output to
+match the rest of the publication will be easily doable. In future releases **RKWard** will even seek stronger
+integration with existing office suites.
+
+-   It relies on a language, that is not only very powerful, but also extensible, and for which dozens of
+extensions already exist.
+
+**And of course, it is free (as in free speech).**
+
+**Current status**
+
+Perhaps the best way to get an impression of the current state of **RKWard** (other than installing and trying it)
+is to have a look at the Screenshots. A status page focused on the internal components is here.
+
+**In summary**:
+
+**RKWard** currently offers a lot of useful features for developing R code. This functionality makes **RKWard**
+highly useful as an IDE for R experts, today.
+The number of graphical dialogs to give access to statistical functions is still rather limited.
+Users coming from competing graphical statistics suites will find a lot is still missing, but possibly
+the functionality you need most is already implemented in the growing number of plugins. Why don’t you
+give it a try to find out? It is also possible to add your own dialogs as plugins (see Developer Information#Plugin developers).
+As far as office integration is concerned, **RKWard** still has a long way to go. However, results are stored
+to in HTML format, however, making it easy to copy-and-paste or import them into text-processing or other office tools.
+
+## About **RKWard**
+
+**RKWard** is developed by a community of volunteers.
+
+![About **RKWard**](images/about_rkward.png)
+
+![**RKWard** Auhtors](images/about_authors.png)
+
+![**RKWard** Components](images/about_components.png)
+
+## Initial Window
+
+![Initial Window](images/initial_window.png)
+
+------------------------------------------------------------------------
+
+Last update:: `r format(file.info('about.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`
