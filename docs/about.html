@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./screenshots.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -108,6 +109,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./about.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About RKWard</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./screenshots.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Screenshots</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -119,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#rkward-mission-statement" id="toc-rkward-mission-statement" class="nav-link active" data-scroll-target="#rkward-mission-statement"><span class="toc-section-number">1.1</span>  RKWard Mission statement</a></li>
   <li><a href="#about-rkward" id="toc-about-rkward" class="nav-link" data-scroll-target="#about-rkward"><span class="toc-section-number">1.2</span>  About <strong>RKWard</strong></a></li>
-  <li><a href="#initial-window" id="toc-initial-window" class="nav-link" data-scroll-target="#initial-window"><span class="toc-section-number">1.3</span>  Initial Window</a></li>
+  <li><a href="#rkward-0.7.5---24-oct-2022" id="toc-rkward-0.7.5---24-oct-2022" class="nav-link" data-scroll-target="#rkward-0.7.5---24-oct-2022"><span class="toc-section-number">1.3</span>  <strong>RKWard</strong> 0.7.5 - 24 Oct 2022</a></li>
   </ul>
 </nav>
     </div>
@@ -169,27 +175,58 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/about_authors.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><strong>RKWard</strong> Auhtors</figcaption><p></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
 <p><img src="images/about_components.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption"><strong>RKWard</strong> Components</figcaption><p></p>
 </figure>
 </div>
-</section>
-<section id="initial-window" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="initial-window"><span class="header-section-number">1.3</span> Initial Window</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/initial_window.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Initial Window</figcaption><p></p>
+<p><img src="images/about_authors.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><strong>RKWard</strong> Authors</figcaption><p></p>
 </figure>
 </div>
+</section>
+<section id="rkward-0.7.5---24-oct-2022" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="rkward-0.7.5---24-oct-2022"><span class="header-section-number">1.3</span> <strong>RKWard</strong> 0.7.5 - 24 Oct 2022</h2>
+<p>A new release, <strong>RKWard</strong> 0.7.5, is available for download, today.</p>
+<p>The most visible changes are the inclusion of many new and improved code snippets, and option to restart the R backend without leaving RKWard (this can be very useful when trying to make sure that a script is fully reproducible), and various improvements to code completion in scripts and the R Console.</p>
+<p>As usual, we’re looking forward to your feedback suggestions, and contributions!</p>
+<p>The changes in detail:</p>
+<p><strong>New features and improvements</strong></p>
+<ul>
+<li>Added: Partial completions (Tab-key) consider completion candidates from all visible completion groups</li>
+<li>Added: R’s dynamic completions (importantly for “:::”, “?”, and “@”) are merged into the already provided completions</li>
+<li>Added: Add option to offer code completion/hinting in all file types not just R scripts (e.g.&nbsp;in .Rmd files)</li>
+<li>Changed default behavior (new installations, only): Up/down without alt navigate completion items if visible in console/editor</li>
+<li>Added: Provide tooltips on symbols in scripts and R console</li>
+<li>Added: Many new basic and advanced R, R Markdown and LaTeX snippets, including complete R Markdown templates</li>
+<li>Added: Allow to select search provider, when searching for a term online</li>
+<li>Added: Allow to restart R backend (e.g.&nbsp;for testing that scripts or packages will work in a fresh session)</li>
+<li>Changed: Actions to restart the R backend, interrupt all commands and configure the R backend arranged in a hmburger menu</li>
+<li>Added: Crosstabs N to N: Simplify labels, add option to control table layout</li>
+<li>Added: Change mechanism for detection of object changes</li>
+</ul>
+<p><strong>Bug fixes</strong></p>
+<ul>
+<li>Fixed: Backend failed to start when installed in a path with spaces on Windows volumes without 8.3 support</li>
+<li>Fixed: Trying to restart backend could cause a hang, on Windows</li>
+<li>Fixed: In corner cases, cancelling commands could lead to a lockup</li>
+<li>Fixed: IRT Cronbach’s Alpha did not work for subsets, if the data.frame name contains dots</li>
+<li>Fixed: Action to remove several rows in data editor, simultaneously, always remained disabled</li>
+<li>Fixed: Workspace browser would not always show change, immediately, when object type changes</li>
+<li>Fixed: Crash when using the “Git blame” kate plugin</li>
+<li>Fixed: Problem installing R support package in some configurations</li>
+<li>Fixed: Menubar would disapper after opening script editor, in some configurations</li>
+<li>Fixed: Very long error messages during R markdown preview could cause the preview window to become too wide</li>
+<li>Fixed: Expresssions spanning several lines would not be shown, correctly, in “R Console”-mode script preview</li>
+<li>Fixed: Fix focus problems, and better efficiency for data previews (as used in data import dialogs)</li>
+<li>Fixed: Excel import plugin failed to accept file name</li>
+<li>Fixed: Fix zooming help/output pages with Ctrl+scroll wheel, when compiled with QWebEngine</li>
+<li>Fixed: Fix problem handling rkward:// links from dialogs on some sytems</li>
+<li>Fixed: Fix object name completion for (irregular) names starting with numbers or underscores</li>
+</ul>
 <hr>
-<p>Last update:: 08/25/2023 - 22:59:01 -03</p>
+<p>Last update: 08/26/2023 - 12:38:01 -03</p>
 
 
 </section>
@@ -450,6 +487,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./screenshots.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Screenshots</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

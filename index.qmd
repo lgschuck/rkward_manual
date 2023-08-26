@@ -1,10 +1,10 @@
 # Welcome {.unnumbered}
 
-This is a **RKWard** book manual. RKWard is an easy to use and easily extensible IDE/GUI for R.
-
-The RKWard used in this book is the version **0.7.5 - 24 Oct 2022**.
+This is a **RKWard** book manual. **RKWard** is an easy to use and easily extensible **IDE/GUI for R**.
 
 ## Versions
+
+The **RKWard** version used in this book is **0.7.5 - 24 Oct 2022**.
 
 The R Version is: `r getRversion()`
 
@@ -14,4 +14,4 @@ The R Version is: `r getRversion()`
 
 ------------------------------------------------------------------------
 
-Last update:: `r format(file.info('index.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`
+Last update: `r format(file.info('index.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`

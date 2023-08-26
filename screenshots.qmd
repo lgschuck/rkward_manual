@@ -1,0 +1,24 @@
+# Screenshots
+
+[Screenshots](https://rkward.kde.org/Screenshots.html)
+
+## Main Window
+
+The main application window with a dashboard of recent files and common tasks.
+At the left and there are several buttons to expand / collapse tool windows (RKWard 0.7.5).
+
+![Main Window](images/main_window.png)
+
+The application window with the Workspace Browser, Data Editor, File Browser, and
+RConsole tabs expanded and attached to the main window.
+
+![Tabs](images/main_tabs.png)
+
+The placement can be re-arranged,
+and each individual window can also be detached as a separate top level window (Windows > Detach).
+
+![Tabs Position](images/main_tabs_position.png)
+
+------------------------------------------------------------------------
+
+Last update: `r format(file.info('screenshots.qmd')$mtime, '%m/%d/%Y - %H:%M:%S', usetz=T)`

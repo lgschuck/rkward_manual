@@ -21,6 +21,7 @@ book:
   chapters:
     - index.qmd
     - about.qmd
+    - screenshots.qmd
 
   downloads: [pdf]
 
