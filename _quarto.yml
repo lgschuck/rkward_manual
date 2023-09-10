@@ -16,7 +16,7 @@ book:
     left: |
       RKWard - Manual
     right: |
-      Build with Quarto and RKWard.
+      Built with Quarto and RKWard.
     background: '#007bff'
   chapters:
     - index.qmd
